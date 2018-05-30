@@ -30,7 +30,7 @@ var utils = require('web3-utils');
 var promiEvent = require('web3-core-promievent');
 var Subscriptions = require('web3-core-subscriptions').subscriptions;
 
-var TIMEOUTBLOCK = 50;
+var TIMEOUTBLOCK = 720;
 var POLLINGTIMEOUT = 15 * TIMEOUTBLOCK; // ~average block time (seconds) * TIMEOUTBLOCK
 var CONFIRMATIONBLOCKS = 24;
 
